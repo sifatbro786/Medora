@@ -1,3 +1,9 @@
-export default function Home() {
-    return <div className="text-3xl">Hello</div>;
+import { Button } from "@/components/ui/button";
+
+export default function HomePage() {
+    return (
+        <div className="py-12">
+            <Button>Click</Button>
+        </div>
+    );
 }
